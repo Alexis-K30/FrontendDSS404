@@ -67,6 +67,7 @@ frontend/
 │   │   ├── Contacto.jsx     # Formulario de contacto y mapa
 │   │   ├── Login.jsx        # Inicio de sesión
 │   │   ├── Register.jsx     # Registro de usuario
+|   |   ├── Comoordenar.jsx  # Guia pequeña paso a paso de como poder ordenar un vestido
 │   │   └── Admin.jsx        # Panel de administración de productos
 │   ├── services/            # Consumo de la API
 │   │   ├── api.js           # Cliente Axios con interceptors
