@@ -24,21 +24,12 @@ Frontend de la tienda de vestidos Creaciones Normita, desarrollado en React con 
    npm install
    ```
 
-3. Crea el archivo de variables de entorno:
-   ```bash
-   cp .env.example .env
-   ```
-   O crea el archivo `.env` manualmente con:
-   ```
-   VITE_API_URL=http://localhost:8000/api/v1
-   ```
-
-4. Levanta el servidor de desarrollo:
+3. Levanta el servidor de desarrollo:
    ```bash
    npm run dev
    ```
 
-5. Abre el navegador en `http://localhost:5173`
+4. Abre el navegador en `http://localhost:5173`
 
 ---
 
@@ -101,14 +92,6 @@ frontend/
 |---|---|---|
 | Cliente | `1` | Catálogo, cotizar, perfil |
 | Administrador | `3` | Todo lo anterior + panel de admin |
-
----
-
-## Variables de entorno
-
-| Variable | Descripción | Valor por defecto |
-|---|---|---|
-| `VITE_API_URL` | URL base de la API Laravel | `http://localhost:8000/api/v1` |
 
 ---
 
